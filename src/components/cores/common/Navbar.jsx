@@ -46,6 +46,7 @@ const Navbar = () => {
 
     useEffect(()=>{
         fetchSubLinks();
+        console.log("Start")
     },[])
 
 
